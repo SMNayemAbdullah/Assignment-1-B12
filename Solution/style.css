@@ -1,0 +1,22 @@
+#fonts style
+    .raleway-normal {
+  font-family: "Raleway", sans-serif;;
+  font-style: normal;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/Hero-bg.png.png);
+    max-width: 80%;
+}
+
+.signup-btn{
+    font-weight: 700;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 5px;
+    border-color: blue;
+}
