@@ -16,7 +16,7 @@
     <header class="background">
         <nav class="navbar">
             <div class="navbar-img">
-                <img src="/logo.jpg" width="60px" height="60px" alt="" class="nav-logo">
+                <img src="/logo.jpg" width="60px" height="60px" alt="" >
             </div>
             <div class="navbar-signup">
                 <button class="signup-btn">Sign Up</button>
@@ -30,51 +30,53 @@
         </section>
     </header>
     <main>
-        <section>
-            <div>
-                <h2>See It in Action</h2>
-                <p>Explore the live preview and imagine your brand in this bold new look.</p>
-                <button>Launch Live Preview</button>
+        
+    
+        <section class="action-section">
+            <div class="action-left">
+                <h2 class="action-title">See It in Action</h2>
+                <p class="action-subtitle">Explore the live preview and imagine your brand in this bold new look.</p>
+                <button class="action-section-button-left">Launch Live Preview</button>
             </div>
-            <div>
-            <img src="/Assets/wc-mini.png" alt="Right side action section image">
-            </div>
-        </section>
-
-        <section>
-            <h2>Joined Thousands of Productive Users</h2>
-            <div>
-            <div>
-                <div>50K</div>
-                <div>Active Users</div>
-            </div>
-            <div>
-                <div>2M+</div>
-                <div>Focus Sessions</div>
-            </div>
-            <div>
-                <div>95%</div>
-                <div>Satisfaction Rate</div>
-            </div>
+            <div class="action-right">
+            <img src="/Assets/wc-mini.png" alt="Right side action section image" class="action-image">
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Let’s Get In Touch</h2>
+        <section class="user-section">
+            <h2 class="user-title">Joined Thousands of Productive Users</h2>
+            <div class="user-data-row">
+            <div class="user-data">
+                <div class="value">50K</div>
+                <div class="value-label">Active Users</div>
             </div>
-            <div>
-                <form>
+            <div class="user-data">
+                <div class="value">2M+</div>
+                <div class="value-label">Focus Sessions</div>
+            </div>
+            <div class="user-data">
+                <div class="value">95%</div>
+                <div class="value-label">Satisfaction Rate</div>
+            </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-left">
+                <h2 class="contact-title">Let’s Get In Touch</h2>
+            </div>
+            <div class="contact-right">
+                <form class="contact-form">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name">
+                    <input class="a" type="text" id="name" name="name" placeholder="Your Name" >
                 
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email">
+                    <input class="a" type="email" id="email" name="email" placeholder="Your email">
                 
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Your Message" rows="5"></textarea>
+                    <textarea class="a" id="message" name="message" placeholder="Write your Message" rows="5" ></textarea>
                 
-                    <button type="submit" >Get in Touch</button>
+                    <button class="contact-btn">Get in Touch</button>
                 </form>
             </div>
         </section>
@@ -82,24 +84,19 @@
 
     </main>
 
-    <footer >
+    <footer class="footer">
         
-        <div >MyWebsite</div>
-        <div>
+        <div class="footer-logo"> <img src="/logo.jpg" width="80px" height="80px" alt=""></div>
+        <div class="footer-subtitle">
             Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.
         </div>
-        <div>
-            <a href="">Home</a> 
-            <a href="">About</a>
-            <a href="">How it works</a>
-            <a href="">Services</a>
+        <div class="footer-link">
+            <a class="l" href="">Home</a> 
+            <a class="l" href="">About</a>
+            <a class="l" href="">How it works</a>
+            <a class="l" href="">Services</a>
         </div>
-    </footer>
-
- 
-
-    
-    
+    </footer>    
 </body>
 
 </html>

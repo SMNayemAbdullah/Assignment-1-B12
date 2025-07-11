@@ -33,6 +33,12 @@
     padding: 10px;
 }
 
+/* special */
+.signup-btn:hover{
+    background-color: crimson;
+}
+
+
 /* banner section css */
 .banner{
     display: flex;
@@ -60,4 +66,210 @@
     border: none;
     margin-bottom: 30px;
     padding: 10px;
+}
+
+/* special */
+.banner-btn:hover{
+    background-color: crimson;
+}
+
+/* 3. Action Section */
+.action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 30px;
+    max-width: 1200px;
+    margin: 0 auto 48px auto;
+    border-radius: 15px;
+}
+
+.action-left{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.action-title{
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.action-subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.action-section-button-left{
+    font-weight: 700;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+/* special */
+.action-section-button-left:hover{
+    background-color: crimson;
+}
+
+.action-image{
+    border-radius: 40px;
+    padding: 20px;
+    margin: auto;
+}
+
+.action-right{
+    justify-content: center;
+    align-items: center;
+}
+
+/* User Section */
+
+
+.value{
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #4E47FF;
+    font-size: 80px;
+}
+
+.user-section{
+    background-color: rgb(246, 249, 250);
+    text-align: center;
+    padding: 60px, 15px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.user-data-row{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: auto;
+
+}
+
+.user-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+   
+}
+
+.value-label{
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+/* Let’s Get In Touch Section */
+
+.contact-section{
+    background-color: rgb(246, 249, 250);
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 64px 40px 48px 40px;
+    padding: 50px 30px;
+    border-radius: 20px;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contact-left{
+    align-items: center;
+    
+
+}
+
+.contact-title {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.contact-btn{
+    font-weight: 700;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.contact-btn:hover{
+    background-color: crimson;
+}
+
+.a{
+    border-radius: 5px;
+}
+
+/* footer section */
+
+.footer{
+    background-color: rgb(246, 249, 250);
+    margin: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.footer-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-link {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.l{
+    text-decoration: none;
+    color: #8987A1 ;
+
 }
