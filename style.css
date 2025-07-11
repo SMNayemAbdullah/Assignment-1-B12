@@ -32,3 +32,32 @@
     margin-top: 10px;
     padding: 10px;
 }
+
+/* banner section css */
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+
+}
+
+.banner-btn{
+    font-weight: 700;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 30px;
+    padding: 10px;
+}
